@@ -3,6 +3,13 @@ body{
     background-color:gray;
     color:white;
 }
+h1{
+    size: 50px;
+    text-align:center;
+}
+h1.fancy{
+    font-style: italic;
+}
 p{
     color:blue;
 }
