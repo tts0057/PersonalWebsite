@@ -1,20 +1,23 @@
 body{
     padding:20px;
-    background-color:gray;
-    color:white;
+    background-color:lightgray;
+    color:black;
+    font-family:"lucida console", monospace;
 }
 h1{
     size: 50px;
     text-align:center;
 }
-h1.fancy{
+h1.creative{
     font-style: italic;
 }
 p{
-    color:blue;
+    color:white;
+    text-align:center;
 }
 input[type=button] {
  padding:10px;
  margin:20px 0px;
  border:1px solid;
+ text-align: center;
 }
