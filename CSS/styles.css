@@ -1,8 +1,17 @@
-body{
+h1{
     padding:20px;
-    background-color:lightgray;
     color:black;
-    font-family:"lucida console", monospace;
+    background-color: transparent;
+    font-family:"optima", sans-serif;
+    font-style: bold;
+    font-stretch: extra-expanded;
+    font-size: xx-large;
+}
+p{
+    color:white;
+    background-color: transparent;
+    font-family:"optima", sans-serif;
+    font-size: large;
 }
 .profpic{
     display: block;
@@ -10,7 +19,25 @@ body{
     margin-right: auto;
     border-radius: 50%;
     overflow: hidden;
-}          
+}   
+.contactbutton{
+    position: fixed;
+    bottom: 10%;
+    right: 48%;
+    color: white;
+}   
+.professionalbutton{
+    position: fixed;
+    top: 50%;
+    left: 80%;
+    color: white;
+}  
+.creativebutton{
+    position: fixed;
+    top: 50%;
+    right: 80%;
+    color: white;
+}
 h1{
     size: 50px;
     text-align:center;
@@ -18,13 +45,17 @@ h1{
 h1.creative{
     font-style: italic;
 }
+
 p{
     color:white;
     text-align:center;
 }
 input[type=button] {
- padding:10px;
- margin:20px 0px;
- border:1px solid;
- text-align: center;
+    padding:10px;
+    margin:20px 0px;
+    border:transparent;
+    background-color: transparent;
+    text-align: center;
+    font-family: "optima", sans-serif;
+    font-size: large;
 }
