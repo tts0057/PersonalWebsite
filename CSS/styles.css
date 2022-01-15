@@ -7,36 +7,45 @@ h1{
     font-stretch: extra-expanded;
     font-size: xx-large;
 }
-p{
+.homedescription{
     color:white;
     background-color: transparent;
     font-family:"optima", sans-serif;
-    font-size: large;
+    font-size: medium;
+    position: fixed;
+    left: 25%;
+    top: 10%;
+    width: 600px;
+    word-wrap: break-word;
 }
 .profpic{
+    position: fixed;
+    left: 37%;
+    bottom: 30%;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
     border-radius: 50%;
     overflow: hidden;
 }   
 .contactbutton{
     position: fixed;
-    bottom: 10%;
+    bottom: 7%;
     right: 48%;
     color: white;
+    font-size: larger;
 }   
 .professionalbutton{
     position: fixed;
-    top: 50%;
+    top: 45%;
     left: 80%;
     color: white;
+    font-size: larger;
 }  
 .creativebutton{
     position: fixed;
-    top: 50%;
+    top: 45%;
     right: 80%;
     color: white;
+    font-size: larger;
 }
 h1{
     size: 50px;
