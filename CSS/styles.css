@@ -48,16 +48,13 @@ h1.creative{
 .creativedescription{
     color:black;
     text-align:center;
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    word-wrap: break-word;
 }
-body.creative{
-    background: linear-gradient(
-        to right,
-        lightslategray 0%,
-        lightslategray 50%,
-        darkolivegreen 50%,
-        darkolivegreen 100%
-    );
-}
+
 /* Add a black background color to the top navigation */
 .topnav {
     background-color: #333;
@@ -125,4 +122,11 @@ body.creative{
     content: "";
     display: table;
     clear: both;
+  }
+
+  .resumecolumn {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    text-align: center;
   }
