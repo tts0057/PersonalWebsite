@@ -9,7 +9,7 @@ h1{
     font-size: xx-large;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 10%;
+    margin-top: 2%;
 }
 .profpic{
     display: block;
@@ -84,4 +84,25 @@ body.creative{
   .topnav a.active {
     background-color: gray;
     color: white;
+  }
+
+  /*doing a half background style*/
+   .lefthalf {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    float: left;
+    background-color: darkolivegreen;
+  }
+
+  .righthalf {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 50%;
+    height: 100%;
+    float: right;
+    background-color: lightslategray;
   }
