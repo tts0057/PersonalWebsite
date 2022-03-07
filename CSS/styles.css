@@ -46,7 +46,7 @@ h1.creative{
     margin-top: 10%;
 }
 .creativedescription{
-    color:white;
+    color:black;
     text-align:center;
 }
 body.creative{
@@ -105,4 +105,24 @@ body.creative{
     height: 100%;
     float: right;
     background-color: lightslategray;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+  
+  /* Create two equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 100%; /* Should be removed. Only for demonstration */
+    text-align: center;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
   }
